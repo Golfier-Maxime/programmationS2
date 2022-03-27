@@ -12,13 +12,55 @@
     <link rel = "icon" type = "image" href = "public/img/logo 1.webp">
     <title>Axolott</title>
 </head>
-<body>
+<body class="background marge">
     <!-- En-tête de la page -->
-    <header class="">
-
-       
+    <header class="flex_header">
+        <div class="marge">
+            <a href="index.html">
+                <img src="public/img/Logo_Axolott.svg" alt="logo de axolott">
+            </a>
+        </div>
+        <div class="flex_connect">
+            <div>
+                <p class="white">Vous avez déjà un compte ? Connectez-vous !</p>
+            </div>
+            <button>Se connecter</button>
+        </div>
     </header>
     <!-- Fin de l'en-tête de page -->
+    <div>
+        <img src="public/img/axolotl/axo_main.svg" alt="axolotl de base">
+        <h2>Surpasser-vous Amuser-vous & Personnalisez votre Avatar</h2>
+    </div>
+    <div>
+        <h3>Inscriver-vous gratuitement</h3>
+        <form action="" method="post">
+            <div>
+                <label for="name" >Nom d'utilisateur</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail" >E-mail</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password">
+            </div>
+            
+            <div>
+                <label for="msg" >Message :</label>
+                <textarea id="msg" name="user_message" class="marge-envoie"></textarea>
+            </div>
+            <div class="carre-send center ">
+                <button type="submit" class="textColJaune">Envoyer</button>
+            </div>
+        </form>
+    </div>
 
     <main class=""> <!-- main + marge -->
 

@@ -1,0 +1,32 @@
+:root {
+    /* Styles de couleur */
+    --dark-purple: #271B3D;
+    --deep-purple :#6133B4 ;
+    --purple : #9D6BF5;
+    --cyan : #08A2F1;
+    --green-cyan : #46D9A4;
+    --white : #FFFFFF ;
+    --black : #000000 ;
+    /* Tailles de police de caractère */
+    --title-xxl: 2.25rem;
+    --title-xl: 1.5rem;
+    --title-lg: 1.125rem;
+    --text-xxl: 3rem;
+    --text-xl: 1.375rem;
+    --text-md: 0.813rem;
+    --text-sm: 0.688rem;
+  
+    /* Polices de caractère */
+    --font-alata :'Alata', sans-serif;
+    
+    /* Font variantes */
+    --letter-spacing: 0.05em;
+  
+    /* Espaces */
+    --space1x: 8px;
+    --space15x: 14px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
+    --space5x: 80px;
+  }

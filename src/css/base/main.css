@@ -1,0 +1,21 @@
+.background  {
+   background-color: var(--deep-purple);
+}
+
+.marge {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.white {
+    color: white;
+}
+
+.flex_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marge {
+    padding-left: 10px;
+    padding-right: 10px;
+}

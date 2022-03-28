@@ -3,3 +3,17 @@
     margin-left: -20px;
     margin-right: -20px;
 }
+
+.flex_article {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_column_article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.image_article {
+    size: 50%;
+}

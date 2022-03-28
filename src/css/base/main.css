@@ -9,8 +9,22 @@ body {
 .white {
     color: white;
 }
+.center_text {
+    text-align: center;
+}
 
-
+.flex_1 {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    font-size: var(--space30px);
+}
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .marge {
     padding-left: 20px;

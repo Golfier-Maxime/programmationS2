@@ -1,3 +1,6 @@
 @import url("utils/normalize.css");
+
 @import url("variable/variable.css");
+
 @import url("base/main.css");
+@import url("layout/article.css");

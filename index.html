@@ -12,7 +12,7 @@
     <link rel = "icon" type = "image" href = "public/img/logo 1.webp">
     <title>Axolott</title>
 </head>
-<body class="background marge">
+<body class="background marge colortext">
     <!-- En-tête de la page -->
     <header class="flex_header">
         <div class="marge">
@@ -30,38 +30,59 @@
     <!-- Fin de l'en-tête de page -->
     <div>
         <img src="public/img/axolotl/axo_main.svg" alt="axolotl de base">
-        <h2>Surpasser-vous Amuser-vous & Personnalisez votre Avatar</h2>
+        <h1>Surpasser-vous Amuser-vous & Personnalisez votre Avatar</h1>
     </div>
     <div>
-        <h3>Inscriver-vous gratuitement</h3>
+        <h2>Inscriver-vous gratuitement</h2>
         <form action="" method="post">
             <div>
-                <label for="name" >Nom d'utilisateur</label>
-                <input type="text" id="name" name="user_name">
+                
+                <input type="text" id="name" name="user_name" placeholder="Nom d'utilisateur">
             </div>
             <div>
-                <label for="mail" >E-mail</label>
-                <input type="email" id="mail" name="user_mail">
+                
+                <input type="email" id="mail" name="user_mail" placeholder="E-mail">
             </div>
             <div>
-                <label for="password">Mot de passe</label>
-                <input type="password" id="password" name="password">
+                
+                <input type="password" id="password" name="password" placeholder="Mot de passe">
             </div>
             <div>
-                <label for="password">Mot de passe</label>
-                <input type="password" id="password" name="password">
+                
+                <input type="password" id="password" name="password" placeholder="Confirmer le mot de passe">
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox" name="checkbox"
+                       checked>
+                <label for="condition">J’accepte que les informations saisie dans le formulaire 
+                    soient utilisées pour créer mon compte Axolott et déclare accepter 
+                    les conditions générales d’utilisation.</label>
+              </div>
+            <div class="">
+                <button type="submit" class="">Créer mon compte</button>
             </div>
             
-            <div>
-                <label for="msg" >Message :</label>
-                <textarea id="msg" name="user_message" class="marge-envoie"></textarea>
-            </div>
-            <div class="carre-send center ">
-                <button type="submit" class="textColJaune">Envoyer</button>
-            </div>
         </form>
     </div>
-
+    <div>
+        <div>
+            <h2>Challenger votre routine</h2>
+            <p>Challenger votre quotidien avec Axolott.
+                 Avec des quêtes journalières et hebdomadaire, modifier et 
+                 dynamiser votre routine pour une journée plus amusante.</p>
+        </div>
+        <div>
+            <div>
+                <h2>Accomplissez vos quêtes</h2>
+                <img src="public/img/exemple_quete.png" alt="exemple de quete">
+                <img src="public/img/exemple_quete_2.png" alt="exemple de quete">
+                <p>Accomplissez vos quêtes pour vous aider 
+                    quotidiennement dans votre routine. Vos 
+                    objectifs ont jamais été aussi pret qu’avec Axolott 
+                    et son interface web pratique et facile d’utilisation.</p>
+            </div>
+        </div>
+    </div>
     <main class=""> <!-- main + marge -->
 
             <footer class=""> <!-- footer -->

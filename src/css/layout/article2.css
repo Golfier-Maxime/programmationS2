@@ -1,0 +1,126 @@
+.grid_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.axobase {
+    width:50%;
+}
+
+.center_label{
+    text-align: center;
+}
+.center_text {
+    text-align: center;
+}
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+  /*  border: 2px solid red; */
+}
+.flex_column_article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex_article_tshirt  {
+    display: flex;
+    justify-content: center;
+}
+.size_tshirt {
+    height: 60%;
+    width: 60%;
+}
+.flex_article_quete {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.marge_quete_bot {
+    margin-bottom: 10px;
+    
+}
+.marge_quete_side {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.size_axolotl_per {
+    width: 60%;
+}
+.size_axo_rec {
+    width: 60%;
+    
+}
+.marge_text_article {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.marge_article_left {
+    margin-left: 50px;
+}
+.marge_article_right {
+    margin-right: 50px;
+}
+.padding_article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.image_article {
+    width: 80%;
+    justify-content: center;
+}
+.image_axolott {
+    text-align: center;
+}
+.grid_phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+/** média **/
+@media screen and (max-width: 700px) {
+    .grid_1{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .center_label{
+        text-align: center; 
+    }
+    .center_text {
+        text-align: center;
+         padding-top:  10%;
+    }
+}
+@media screen and (max-width: 830px) {
+    .grid_2 {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        
+    }
+}
+@media screen and (max-width: 1020px) {
+    .grid_3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .grid_footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

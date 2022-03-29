@@ -1,6 +1,6 @@
 .marge_header {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .flex_header {
     display: flex;
@@ -21,4 +21,5 @@
     padding-right: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    margin-right: 30px;
 }

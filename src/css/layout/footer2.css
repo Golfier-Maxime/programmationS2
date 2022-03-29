@@ -1,0 +1,8 @@
+.grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+/*.marge_footer_text {
+    padding-right: 10%;
+} */

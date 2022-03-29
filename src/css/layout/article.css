@@ -7,6 +7,7 @@
 .flex_article {
     display: flex;
     justify-content: space-between;
+    gap: 10%;
 }
 .flex_column_article {
     display: flex;
@@ -14,6 +15,24 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.image_article {
-    size: 50%;
+.gap {
+    gap: 10%;
+}
+image_article {
+    height: 100%;
+    width: 100%;
+}
+.marge_zone {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.marge_article_left {
+    margin-left: 5%;
+}
+.marge_article_right {
+    margin-right: 5%;
+}
+.marge_text_article {
+    margin-left: 25%;
+    margin-right: 25%;
 }

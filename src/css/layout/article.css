@@ -18,13 +18,13 @@
 .gap {
     gap: 10%;
 }
-image_article {
-    height: 100%;
-    width: 100%;
-}
 .marge_zone {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.marge_div_zone {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .marge_article_left {
     margin-left: 5%;
@@ -33,6 +33,36 @@ image_article {
     margin-right: 5%;
 }
 .marge_text_article {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.size_tshirt {
+    height: 60%;
+    width: 60%;
+}
+.flex_article_tshirt  {
+    display: flex;
+    justify-content: center;
+}
+.flex_article_quete {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.marge_quete_bot {
+    margin-bottom: 10px;
+    
+}
+.marge_quete_side {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.size_axolotl_per {
+    
+}
+
+.flex_axolott_per {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

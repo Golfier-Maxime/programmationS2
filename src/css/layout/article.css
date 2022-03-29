@@ -66,3 +66,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.flex_article_phone {
+    display: flex;
+    align-items: center;
+}

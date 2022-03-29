@@ -17,6 +17,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+h1 {
+    font-size: var(--space40px);
+}
 h2 {
     font-size: var(--space30px);
 }

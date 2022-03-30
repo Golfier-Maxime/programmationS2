@@ -21,3 +21,12 @@
 ::placeholder {
     color: white;
   }
+textarea {
+    background-color:  var(--dark-purple);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border-radius: 5px;
+}

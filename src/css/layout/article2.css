@@ -130,6 +130,12 @@
     }
 }
 @media screen and (max-width: 1020px) {
+    .grid_phone {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 1020px) {
     .grid_footer {
         display: grid;
         grid-template-columns: 1fr;

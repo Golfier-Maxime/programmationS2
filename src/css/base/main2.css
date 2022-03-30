@@ -62,7 +62,7 @@ h2 {
     font-size: var(--space30px);
     font-weight: bold;
 }
-html {
+html,body {
     overflow-x: hidden;
 }
 .background_color_article {

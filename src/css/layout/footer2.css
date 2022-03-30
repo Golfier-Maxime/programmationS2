@@ -11,7 +11,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.marge_bot_header {
+    margin-bottom: 15px;
+}
 /* media */
 @media screen and (max-width: 1020px) {
     .grid_footer {

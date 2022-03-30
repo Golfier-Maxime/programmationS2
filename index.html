@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,10 @@
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
     <script src="https://animejs.com/lib/anime.min.js"></script>
     <script src="src/js/fonction.js"></script>
-    <link rel = "icon" type = "image" href = "public/img/Logo_Axolott.svg">
+    <link rel="icon" type="image" href="public/img/Logo_Axolott.svg">
     <title>Axolott</title>
 </head>
+
 <body class="background  colortext">
     <!-- En-tête de la page -->
     <header class="flex_header">
@@ -30,142 +32,155 @@
     <main>
         <div class="grid_1 padding_article marge">
             <div class="flex_column">
-                <div class="image_axolott">
-                    <img src="public/img/axolotl/axo_main.svg" alt="axolotl de base" class="axobase">
+                <div class="center_cercle">
+                    <div class=" cercle_bleu image_axolott">
+                        
+                            <img src="public/img/axolotl/axo_main.svg" alt="axolotl de base" class="img_axo"> 
+                        
+                    </div>
                 </div>
-                <div class="text_marge_top">
-                    <h1>Surpassez-vous <br> Amusez-vous <br> & Personnalisez votre Avatar</h1>
+                <div class="text_marge_top center_text">
+                    <h1>Surpassez-vous  Amusez-vous  & Personnalisez votre Avatar</h1>
                 </div>
             </div>
-            <div class="flex_column center_text">  
+            <div class="flex_column center_text">
                 <div>
                     <h2>Inscriver-vous gratuitement</h2>
                 </div>
                 <div class="text_marge_top">
-                <form action="" method="post">
-                    <div class="text_marge_top_form">
-                        <input type="text" id="name" name="user_name" placeholder="Nom d'utilisateur" class="form_fond">
-                    </div>
-                    <div class="text_marge_top_form">  
-                        <input type="email" id="mail" name="user_mail" placeholder="E-mail" class="form_fond">
-                    </div>
-                    <div class="text_marge_top_form">
-                        <input type="password" id="password" name="password" placeholder="Mot de passe" class="form_fond">
-                    </div>
-                    <div class="text_marge_top_form">
-                        <input type="password" id="password" name="password" placeholder="Confirmer le mot de passe" class="form_fond">
-                    </div>
-                    <div class="center_label text_marge_top">
-                        <input type="checkbox" id="checkbox" name="checkbox"
-                            checked>
-                        <label for="condition">J’accepte que les informations saisie dans le formulaire 
-                            soient utilisées pour créer mon compte Axolott et déclare accepter 
-                            les conditions générales d’utilisation.</label>
-                    </div>
-                    <div class="text_marge_top ">
-                        <button type="submit" class="form_button">Créer mon compte</button>
-                    </div>
-                </form>
-            </div>
+                    <form action="" method="post">
+                        <div class="text_marge_top_form">
+                            <input type="text" id="name" name="user_name" placeholder="Nom d'utilisateur"
+                                class="form_fond">
+                        </div>
+                        <div class="text_marge_top_form">
+                            <input type="email" id="mail" name="user_mail" placeholder="E-mail" class="form_fond">
+                        </div>
+                        <div class="text_marge_top_form">
+                            <input type="password" id="password" name="password" placeholder="Mot de passe"
+                                class="form_fond">
+                        </div>
+                        <div class="text_marge_top_form">
+                            <input type="password" id="password" name="password" placeholder="Confirmer le mot de passe"
+                                class="form_fond">
+                        </div>
+                        <div class="center_label text_marge_top">
+                            <input type="checkbox" id="checkbox" name="checkbox" checked>
+                            <label for="condition">J’accepte que les informations saisie dans le formulaire
+                                soient utilisées pour créer mon compte Axolott et déclare accepter
+                                les conditions générales d’utilisation.</label>
+                        </div>
+                        <div class="text_marge_top ">
+                            <button type="submit" class="form_button">Créer mon compte</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-            <div class="background_color_article center_text padding_article" >
-                <div class="marge_top_zone">
-                    <h2 class="">Challenger votre routine</h2>
-                    <p class="marge_text_article text_marge_top">Challenger votre quotidien avec Axolott.
-                        Avec des quêtes journalières et hebdomadaire, modifier et 
-                        dynamiser votre routine pour une journée plus amusante.</p>
-                </div>
-                <div class="grid_2">
-                    <article class="flex_column_article marge_article_left ">
-                        <h2>Accomplissez vos quêtes</h2>
-                        <div class="flex_article_quete text_marge_top">
-                            <img src="public/img/exemple_quete.png" alt="exemple de quete" class="marge_quete_bot marge_quete_side">
-                            <img src="public/img/exemple_quete_2.png" alt="exemple de quete" class="marge_quete_side">
-                        </div>
-                        <p class="text_marge_top">Accomplissez vos quêtes pour vous aider 
-                            quotidiennement dans votre routine. Vos 
-                            objectifs ont jamais été aussi pret qu’avec Axolott 
-                            et son interface web pratique et facile d’utilisation.</p>
-                    </article>
-                    <article class="flex_column_article ">
-                        <h2>Gagner des récompenses</h2>
-                        <div class="flex_article_tshirt text_marge_top">
-                            <img src="public/img/axolotl/tshirt_blanc.svg" alt="t-shirt blanc de axolotl" class="size_tshirt">
-                            <img src="public/img/axolotl/tshirt_rouge.svg" alt="t-shirt rouge de axolotl" class="size_tshirt">
-                        </div>
-                        <div>
-                            <img src="public/img/axolotl/axorec.svg" alt="axolotl" class="size_axo_rec">
-                        </div>
-                        <p class="text_marge_top">Gagner des récompenses pour avoir atteint vos objectifs.
-                            Débloquer des objets ou tenues pour votre Axolotl.</p>
-                    </article>
-                    <article class="flex_column_article marge_article_right">
-                        <h2>Personaliser votre Axolotl</h2>
-                        <div>
-                            <img src="public/img/axolotl/axoper_jaune.svg" alt="axolotl jaune" class="size_axolotl_per text_marge_top ">
-                            <img src="public/img/axolotl/axoper_maj.svg" alt="axolotl majenta" class="size_axolotl_per ">
-                        </div>
-                        <p class="text_marge_top">Grâces aux récompenses, personaliser
-                            votre Axolotl afin qu’il vous représente et qu’il
-                            vous acompagne tout au long de vos tâches. Avec lui, vous êtes accompagnés.</p>
-                    </article>
-                </div>
+        <div class="background_color_article center_text padding_article">
+            <div class="marge_top_zone">
+                <h2 class="">Challenger votre routine</h2>
+                <p class="marge_text_article text_marge_top">Challenger votre quotidien avec Axolott.
+                    Avec des quêtes journalières et hebdomadaire, modifier et
+                    dynamiser votre routine pour une journée plus amusante.</p>
             </div>
-            <div class="center_text padding_article">
-                <div>
-                    <h2>Améliorer votre quotidien</h2>
-                    <p class="marge_text_article">Améliorer votre quotidien avec Axolott 
-                        dans tout les domaines, travail, étude, sport, 
-                        tache ménagère et bien plus encore.</p>
-                </div>
-                <div class="grid_3">
-                    <article class="flex_column_article marge_article_left">
-                        <h2>Travail et Etudes</h2>
-                        <div class="">
-                            <img src="public/img/travail.webp" alt="exemple de travail" class=" image_article text_marge_top">
-                        </div>
-                        <p class="text_marge_top">Que vous soyez étudiant ou employé, 
-                            Axolott vous accompagne dans tous vos tâches les plus compliquées.</p>
-                    </article>
-                    <article class="flex_column_article">
-                        <h2>Sport et Santé</h2>
-                        <div>
-                            <img src="public/img/sport.webp" alt="exemple de sport" class="image_article text_marge_top">
-                        </div>
-                        <p class="text_marge_top">Axolott vous acompagne même dans le sport,
-                            vous donne de la motivation et prend soin de vous de façon ludique.</p>
-                    </article>
-                    <article class="flex_column_article marge_article_right">
-                        <h2>Tache ménagère et bien plus !</h2>
-                        <div>
-                            <img src="public/img/tache.webp" alt="exemple de tache menagere" class="image_article text_marge_top">
-                        </div>
-                        <p class="text_marge_top">Pendant vos longues heures de repassage ou de vaiselle, 
-                            Axolott est là aussi. Et il peux faire bien plus avec des quêtes personnalisées.</p>
-                    </article>
-                </div>
-            </div>
-            <!-- phone -->
-            <div class="background_color_article">
-                <div class="center_text marge_article_left grid_phone">
+            <div class="grid_2">
+                <article class="flex_column_article marge_article_left ">
+                    <h2>Accomplissez vos quêtes</h2>
+                    <div class="flex_article_quete text_marge_top">
+                        <img src="public/img/exemple_quete.png" alt="exemple de quete"
+                            class="marge_quete_bot marge_quete_side">
+                        <img src="public/img/exemple_quete_2.png" alt="exemple de quete" class="marge_quete_side">
+                    </div>
+                    <p class="text_marge_top">Accomplissez vos quêtes pour vous aider
+                        quotidiennement dans votre routine. Vos
+                        objectifs ont jamais été aussi pret qu’avec Axolott
+                        et son interface web pratique et facile d’utilisation.</p>
+                </article>
+                <article class="flex_column_article ">
+                    <h2>Gagner des récompenses</h2>
+                    <div class="flex_article_tshirt text_marge_top">
+                        <img src="public/img/axolotl/tshirt_blanc.svg" alt="t-shirt blanc de axolotl"
+                            class="size_tshirt">
+                        <img src="public/img/axolotl/tshirt_rouge.svg" alt="t-shirt rouge de axolotl"
+                            class="size_tshirt">
+                    </div>
                     <div>
-                     <img src="public/img/iphone.png" alt="image d'axolott sur telephone" class="">
+                        <img src="public/img/axolotl/axorec.svg" alt="axolotl" class="size_axo_rec">
                     </div>
-                    <div class="text_align_center">
-                        <h2>Utilisez Axolott
-                            n’importe où ! </h2>
-                        <p class="marge_text_article text_marge_top">Axolott vous accompagne partout gràce à son 
-                            interface mobile ou bureau, il est fonctionnel où que vous êtes.</p>
+                    <p class="text_marge_top">Gagner des récompenses pour avoir atteint vos objectifs.
+                        Débloquer des objets ou tenues pour votre Axolotl.</p>
+                </article>
+                <article class="flex_column_article marge_article_right">
+                    <h2>Personaliser votre Axolotl</h2>
+                    <div>
+                        <img src="public/img/axolotl/axoper_jaune.svg" alt="axolotl jaune"
+                            class="size_axolotl_per text_marge_top ">
+                        <img src="public/img/axolotl/axoper_maj.svg" alt="axolotl majenta" class="size_axolotl_per ">
                     </div>
+                    <p class="text_marge_top">Grâces aux récompenses, personaliser
+                        votre Axolotl afin qu’il vous représente et qu’il
+                        vous acompagne tout au long de vos tâches. Avec lui, vous êtes accompagnés.</p>
+                </article>
+            </div>
+        </div>
+        <div class="center_text padding_article">
+            <div>
+                <h2>Améliorer votre quotidien</h2>
+                <p class="marge_text_article">Améliorer votre quotidien avec Axolott
+                    dans tout les domaines, travail, étude, sport,
+                    tache ménagère et bien plus encore.</p>
+            </div>
+            <div class="grid_3">
+                <article class="flex_column_article marge_article_left">
+                    <h2>Travail et Etudes</h2>
+                    <div class="">
+                        <img src="public/img/travail.webp" alt="exemple de travail"
+                            class=" image_article text_marge_top">
+                    </div>
+                    <p class="text_marge_top">Que vous soyez étudiant ou employé,
+                        Axolott vous accompagne dans tous vos tâches les plus compliquées.</p>
+                </article>
+                <article class="flex_column_article">
+                    <h2>Sport et Santé</h2>
+                    <div>
+                        <img src="public/img/sport.webp" alt="exemple de sport" class="image_article text_marge_top">
+                    </div>
+                    <p class="text_marge_top">Axolott vous acompagne même dans le sport,
+                        vous donne de la motivation et prend soin de vous de façon ludique.</p>
+                </article>
+                <article class="flex_column_article marge_article_right">
+                    <h2>Tache ménagère et bien plus !</h2>
+                    <div>
+                        <img src="public/img/tache.webp" alt="exemple de tache menagere"
+                            class="image_article text_marge_top">
+                    </div>
+                    <p class="text_marge_top">Pendant vos longues heures de repassage ou de vaiselle,
+                        Axolott est là aussi. Et il peux faire bien plus avec des quêtes personnalisées.</p>
+                </article>
+            </div>
+        </div>
+        <!-- phone -->
+        <div class="background_color_article">
+            <div class="center_text marge_article_left grid_phone">
+                <div>
+                    <img src="public/img/iphone.png" alt="image d'axolott sur telephone" class="">
+                </div>
+                <div class="text_align_center">
+                    <h2>Utilisez Axolott
+                        n’importe où ! </h2>
+                    <p class="marge_text_article text_marge_top">Axolott vous accompagne partout gràce à son
+                        interface mobile ou bureau, il est fonctionnel où que vous êtes.</p>
                 </div>
             </div>
-        
+        </div>
+
     </main>
 
-    <footer > <!-- footer -->
+    <footer>
+        <!-- footer -->
         <div class="grid_footer marge">
-            <div>  
+            <div>
                 <h2 class="text_marge_top">Nous contacter</h2>
                 <form action="" method="post">
                     <div class="text_marge_top_form">
@@ -177,38 +192,41 @@
                     <div class="text_marge_top_form">
                         <input type="email" id="mail" name="user_mail" placeholder="E-mail" class="form_fond">
                     </div>
-                    <div class="text_marge_top_form ">           
-                    <textarea id="msg" name="user_message" class="marge-envoie" placeholder="Message"></textarea>
-                </div>
-                <div class="text_marge_top_form">
-                    <button type="submit" class="form_button">Envoyer</button>
-                </div>
+                    <div class="text_marge_top_form ">
+                        <textarea id="msg" name="user_message" class="marge-envoie" placeholder="Message"></textarea>
+                    </div>
+                    <div class="text_marge_top_form">
+                        <button type="submit" class="form_button">Envoyer</button>
+                    </div>
                 </form>
             </div>
             <div>
                 <h2 class="text_marge_top">Nos Réseaux</h2>
-                <p>Retrouve nous sur Instagram <a href="#">@Axolott_officiel <img src="public/icones/insta.svg" alt="logo instagram"></a></p>
+                <p>Retrouve nous sur Instagram <a href="#">@Axolott_officiel <img src="public/icones/insta.svg"
+                            alt="logo instagram"></a></p>
             </div>
             <div>
                 <img src="public/img/Logo_Axolott.svg" alt="lodo d'axolott" class="size_logo_footer text_marge_top">
                 <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
-                <button class="form_button">Nous soutenir via PayPal <img src="public/icones/coeur.svg" alt="logo de coeur"></button>
+                <button class="form_button">Nous soutenir via PayPal <img src="public/icones/coeur.svg"
+                        alt="logo de coeur"></button>
                 <p>© 2022 Axolott. All rights reserved.</p>
                 <p>Conditions génrales d’utilisation</p>
                 <p>Politique de confidentialité</p>
-                <p class="marge_footer_text">Si vous n'êtes pas satisfait de notre réponse 
-                    ou de la manière dont nous traitons vos 
-                    informations personnelles conformément 
+                <p class="marge_footer_text">Si vous n'êtes pas satisfait de notre réponse
+                    ou de la manière dont nous traitons vos
+                    informations personnelles conformément
                     à la présente politique de confidentialité, vous pouvez également avoir le droit
-                    de déposer une plainte auprès d'une autorité de protection des données ou d'un 
+                    de déposer une plainte auprès d'une autorité de protection des données ou d'un
                     tribunal compétent. Si vous résidez dans l'Union européenne, une liste des autorités
                     nationales de protection des données peut être consultée ici :
                     http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.</p>
             </div>
         </div>
     </footer>
-        
+
 
 
 </body>
+
 </html>

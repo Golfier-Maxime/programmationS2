@@ -116,14 +116,18 @@
     .grid_2 {
         display: grid;
         grid-template-columns: 1fr;
-       
-        
     }
 }
 @media screen and (max-width: 1020px) {
     .grid_3 {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .marge_article_left {
+        margin-left: 0px;
+    }
+    .marge_article_right {
+        margin-right: 0px;
     }
     .image_article {
         text-align: center;
@@ -133,6 +137,9 @@
     .grid_phone {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .text_align_center {
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 1020px) {

@@ -79,8 +79,7 @@
     padding-bottom: 30px;
 }
 .image_article {
-    width: 80%;
-    justify-content: center;
+    text-align: center;
 }
 .image_axolott {
     text-align: center;
@@ -88,7 +87,16 @@
 .grid_phone {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
+}
+.text_align_center {
+    margin-top: 40%;
+}
+.text_marge_top {
+    margin-top: 3%;
+}
+.text_marge_top_form {
+    margin-top: 5px;
 }
 /** média **/
 @media screen and (max-width: 700px) {
@@ -116,6 +124,9 @@
     .grid_3 {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .image_article {
+        text-align: center;
     }
 }
 @media screen and (max-width: 1020px) {

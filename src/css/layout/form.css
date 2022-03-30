@@ -1,0 +1,23 @@
+.form_button  {
+    background-color:  var(--cyan);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.form_fond {
+    background-color:  var(--dark-purple);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+::placeholder {
+    color: white;
+  }

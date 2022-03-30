@@ -56,11 +56,13 @@ body {
 }
 h1 {
     font-size: var(--space40px);
+    font-weight: bold;
 }
 h2 {
     font-size: var(--space30px);
+    font-weight: bold;
 }
-html,body {
+html {
     overflow-x: hidden;
 }
 .background_color_article {

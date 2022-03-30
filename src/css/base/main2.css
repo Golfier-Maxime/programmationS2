@@ -39,11 +39,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a {
+    text-decoration: none;
+}
 /** main **/
 
 body {
     font-family: var(--font-mulish);
+    color: white;
+}
+.color{
     color: white;
 }
 .background  {
@@ -52,6 +57,19 @@ body {
 .center_text {
     text-align: center;
 }
+.center_text_start {
+    text-align: left; 
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.text_marge_left {
+    margin-left: 10%;
+}
+.phone {
+    width: 50%;
+}
+
 h1 {
     font-size: var(--space40px);
     font-weight: bold;

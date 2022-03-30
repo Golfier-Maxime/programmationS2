@@ -3,6 +3,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-/*.marge_footer_text {
-    padding-right: 10%;
-} */
+.size_logo_footer {
+    width: 60%;
+}
+.footer_reseau_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* media */
+@media screen and (max-width: 1020px) {
+    .grid_footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

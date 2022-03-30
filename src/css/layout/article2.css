@@ -90,7 +90,7 @@
 
 }
 .text_align_center {
-    margin-top: 40%;
+    margin-top: 20%;
 }
 .text_marge_top {
     margin-top: 3%;
@@ -140,11 +140,5 @@
     }
     .text_align_center {
         margin-top: 5%;
-    }
-}
-@media screen and (max-width: 1020px) {
-    .grid_footer {
-        display: grid;
-        grid-template-columns: 1fr;
     }
 }
